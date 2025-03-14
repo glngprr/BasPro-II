@@ -1,4 +1,4 @@
-print("\n----- Menghitung Gaji Pegawai -----\n")
+print("\n------ Menghitung Gaji ------\n")
     
 nama = input("Masukkan Nama: ")
 nik = input("Masukkan NIK: ")
