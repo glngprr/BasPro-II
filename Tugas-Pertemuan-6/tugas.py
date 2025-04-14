@@ -7,7 +7,7 @@ print("\nMasukkan elemen Matriks 1:")
 for i in range(5):
     baris = []
     for j in range(5):
-        elemen = int(input(f"Matriks1[{i+1}][{j+1}] = "))
+        elemen = int(input(f"Matriks 1 [{i+1}][{j+1}] = "))
         baris.append(elemen)
     matriks1.append(baris)
 
@@ -15,7 +15,7 @@ print("\nMasukkan elemen Matriks 2:")
 for i in range(5):
     baris = []
     for j in range(5):
-        elemen = int(input(f"Matriks2[{i+1}][{j+1}] = "))
+        elemen = int(input(f"Matriks 2 [{i+1}][{j+1}] = "))
         baris.append(elemen)
     matriks2.append(baris)
 
