@@ -31,7 +31,7 @@ matriksB = [
     [1, 1, 1, 1, 1]
 ]
 ```
-- Proses perkalian matris `hasil`
+- Proses perkalian matriks `hasil`
 ```python
 hasil = []
 for i in range(5):
@@ -43,7 +43,7 @@ for i in range(5):
         baris_hasil.append(total)
     hasil.append(baris_hasil)
 ```
-- Menampilkan Matriks
+- Menampilkan matriks
 ```python
 print("\nMatriks A:")
 for baris in matriksA:
