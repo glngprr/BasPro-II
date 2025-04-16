@@ -11,7 +11,7 @@ Matriks `A` dan Matriks `B` didefinisikan secara langsung dalam kode, bisa juga 
 ---
 
 ## Source Code 
-- Elemen matriks A 5x5
+- Elemen matriks A 
 ```python
 matriksA = [
     [1, 2, 3, 4, 5],
@@ -21,7 +21,7 @@ matriksA = [
     [5, 4, 3, 2, 1]
 ]
 ```
-- Elemen matriks B 5x5
+- Elemen matriks B 
 ```python
 matriksB = [
     [1, 1, 1, 1, 1],
