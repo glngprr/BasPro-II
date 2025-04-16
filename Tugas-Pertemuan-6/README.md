@@ -6,7 +6,7 @@ Reposotori ini dibuat untuk memenuhi tugas kuliah Bahasa Pemrograman II terkait 
 
 ## Deskripsi Program
 
-Matriks A dan Matriks B didefinisikan secara langsung dalam kode. Perkalian dilakukan dengan tiga perulangan yaitu `for-loop`, di mana setiap elemen hasil merupakan jumlah dari perkalian elemen baris Matriks A dan kolom Matriks B. Hasil akhirnya adalah matriks baru yang ditampilkan bersama Matriks A dan Matriks B.
+Matriks `A` dan Matriks `B` didefinisikan secara langsung dalam kode. Perkalian dilakukan dengan tiga perulangan yaitu `for-loop`, setiap elemen hasil di posisi `[i][j]` dihitung sebagai jumlah dari hasil perkalian elemen baris ke-`i` dari Matriks `A` dengan elemen kolom ke-`j` dari Matriks B, dan variabel `hasil` adalah hasil akhir perkalian matriks A x B.
 
 ---
 
