@@ -20,7 +20,9 @@ matriksA = [
     [6, 7, 8, 9, 0],
     [5, 4, 3, 2, 1]
 ]
-
+```
+- Nilai matriks B 5x5
+```python
 matriksB = [
     [1, 1, 1, 1, 1],
     [1, 1, 1, 1, 1],
@@ -28,8 +30,9 @@ matriksB = [
     [1, 1, 1, 1, 1],
     [1, 1, 1, 1, 1]
 ]
-
-# Proses perkalian matriks
+```
+- Proses perkalian matris `hasil`
+```python
 hasil = []
 for i in range(5):
     baris_hasil = []
