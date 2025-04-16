@@ -1,12 +1,12 @@
-# Program Perkalian Matriks 5 x 5
+# Perkalian Matriks 5 x 5
 
-Reposotori ini dibuat untuk memenuhi tugas kuliah Bahasa Pemrograman II terkait implementasi sederhana dalam Python untuk melakukan **perkalian dua buah matriks berukuran 5 x 5**.
+Repositori ini dibuat untuk memenuhi tugas kuliah Bahasa Pemrograman II terkait implementasi sederhana dalam Python untuk melakukan **perkalian dua buah matriks berukuran 5 x 5**.
 
 ---
 
-## Deskripsi Program
+## Deskripsi 
 
-Matriks `A` dan Matriks `B` didefinisikan secara langsung dalam kode. Perkalian dilakukan dengan tiga perulangan yaitu `for-loop`, setiap elemen hasil di posisi `[i][j]` dihitung sebagai jumlah dari hasil perkalian elemen baris ke-`i` dari Matriks `A` dengan elemen kolom ke-`j` dari Matriks B, dan variabel `hasil` adalah hasil akhir perkalian matriks A x B.
+Matriks `A` dan Matriks `B` didefinisikan secara langsung dalam kode, bisa juga mengisi elemen matriks satu per satu dengan `input()`. Perkalian dilakukan dengan tiga perulangan yaitu `for-loop`, setiap elemen hasil di posisi `[i][j]` dihitung sebagai jumlah dari hasil perkalian elemen baris ke-`i` dari Matriks `A` dengan elemen kolom ke-`j` dari Matriks `B`, dan variabel `hasil` adalah hasil akhir perkalian matriks A x B.
 
 ---
 
