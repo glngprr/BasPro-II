@@ -6,7 +6,7 @@ Repositori ini dibuat untuk memenuhi tugas kuliah Bahasa Pemrograman II terkait 
 
 ## Deskripsi 
 
-Matriks `A` dan Matriks `B` didefinisikan secara langsung dalam kode, bisa juga mengisi elemen matriks satu per satu dengan `input()`. Perkalian dilakukan dengan tiga perulangan yaitu `for-loop`, setiap elemen hasil di posisi `[i][j]` dihitung sebagai jumlah dari hasil perkalian elemen baris ke-`i` dari Matriks `A` dengan elemen kolom ke-`j` dari Matriks `B`, dan variabel `hasil` adalah hasil akhir perkalian matriks A x B.
+Matriks `A` dan Matriks `B` didefinisikan secara langsung dalam kode, dan bisa juga mengisi elemen matriks satu per satu dengan `input()`. Perkalian dilakukan dengan tiga perulangan yaitu `for-loop`, Perhitungan dilakukan dengan menjumlahkan hasil kali antara elemen baris Matriks A dan kolom Matriks B. Hasil perkalian disimpan dalam matriks baru yaitu matriks `hasil` dan ditampilkan bersama A dan B.
 
 ---
 
