@@ -6,12 +6,12 @@ Reposotori ini dibuat untuk memenuhi tugas kuliah Bahasa Pemrograman II terkait 
 
 ## Deskripsi Program
 
-Matriks A dan Matriks B didefinisikan secara langsung dalam kode. Perkalian dilakukan dengan tiga perulangan, di mana setiap elemen hasil merupakan jumlah dari perkalian elemen baris Matriks A dan kolom Matriks B. Hasil akhirnya adalah matriks baru yang ditampilkan bersama Matriks A dan Matriks B.
+Matriks A dan Matriks B didefinisikan secara langsung dalam kode. Perkalian dilakukan dengan tiga perulangan yaitu `for-loop`, di mana setiap elemen hasil merupakan jumlah dari perkalian elemen baris Matriks A dan kolom Matriks B. Hasil akhirnya adalah matriks baru yang ditampilkan bersama Matriks A dan Matriks B.
 
 ---
 
 ## Source Code 
-
+- Nilai matriks A 5x5
 ```python
 matriksA = [
     [1, 2, 3, 4, 5],
