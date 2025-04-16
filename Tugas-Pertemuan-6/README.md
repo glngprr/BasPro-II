@@ -11,7 +11,7 @@ Matriks `A` dan Matriks `B` didefinisikan secara langsung dalam kode. Perkalian 
 ---
 
 ## Source Code 
-- Nilai matriks A 5x5
+- Elemen matriks A 5x5
 ```python
 matriksA = [
     [1, 2, 3, 4, 5],
@@ -21,7 +21,7 @@ matriksA = [
     [5, 4, 3, 2, 1]
 ]
 ```
-- Nilai matriks B 5x5
+- Elemen matriks B 5x5
 ```python
 matriksB = [
     [1, 1, 1, 1, 1],
@@ -42,3 +42,42 @@ for i in range(5):
             total += matriksA[i][k] * matriksB[k][j]
         baris_hasil.append(total)
     hasil.append(baris_hasil)
+```
+- Menampilkan Matriks
+```python
+print("\nMatriks A:")
+for baris in matriksA:
+    print(baris)
+
+print("\nMatriks B:")
+for baris in matriksB:
+    print(baris)
+
+print("\nHasil Matriks A x B:")
+for baris in hasil:
+    print(baris)
+```
+
+### Perkalian Matriks Dengan Input User
+
+User juga bisa mengisi Elemen matriks A dan B satu per satu dengan menggunakan `input()`.
+```python
+matriksA = []
+matriksB = []
+
+print("\nMasukkan elemen Matriks A:")
+for i in range(5):
+    baris = []
+    for j in range(5):
+        elemen = int(input(f"Matriks 1 [{i+1}][{j+1}] = "))
+        baris.append(elemen)
+    matriksA.append(baris)
+
+print("\nMasukkan elemen Matriks B:")
+for i in range(5):
+    baris = []
+    for j in range(5):
+        elemen = int(input(f"Matriks 2 [{i+1}][{j+1}] = "))
+        baris.append(elemen)
+    matriksB.append(baris)  
+```
